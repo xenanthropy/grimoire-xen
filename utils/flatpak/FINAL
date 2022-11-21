@@ -1,0 +1,7 @@
+create_group flatpak
+create_account flatpak
+message "${MESSAGE_COLOR}\n" \
+	"Make sure to run (as normal user)\n" \
+	"${DEFAULT_COLOR}flatpak remote-add --if-not-exists --user flathub https://flathub.org/repo/flathub.flatpakrepo\n" \
+	"${MESSAGE_COLOR}if you are wanting to install flatpaks from the flathub repo"
+ 
