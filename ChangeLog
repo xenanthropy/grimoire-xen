@@ -1,5 +1,8 @@
 2022-11-20 Conner Clere <connerclere@gmail.com>
-        & utils/bubblewrap: new spell
+        * utils/xdg-dbus-proxy: new spell
+
+2022-11-20 Conner Clere <connerclere@gmail.com>
+        * utils/bubblewrap: new spell
 
 2022-11-18 Conner Clere <connerclere@gmail.com>
         * utils/libportal: new spell
