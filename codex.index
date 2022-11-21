@@ -1,2 +1,6 @@
 appstream-glib /var/lib/sorcery/codex/craft/devel
+bubblewrap /var/lib/sorcery/codex/craft/utils
 flatpak /var/lib/sorcery/codex/craft/utils
+libportal /var/lib/sorcery/codex/craft/utils
+ostree /var/lib/sorcery/codex/craft/utils
+xdg-dbus-proxy /var/lib/sorcery/codex/craft/utils
