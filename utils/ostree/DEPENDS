@@ -9,10 +9,10 @@ depends fuse3                                 &&
 depends curl '--with-curl=yes --with-soup=no' &&
 
 # To be enabled when flatpak has ostree sub-depends, forcing curl in BUILD otherwise
-#optional_depends curl                                          \
+#optional_depends curl                                         \
 #		 '--with-curl=yes --with-soup=no'              \
 #		 ''                                            \
-#                "Use curl over libsoup? (recommended)"        &&
+#                'Use curl over libsoup? (recommended)'        &&
 
 #if ! is_depends_enabled "${SPELL}" curl; then
 #  depends libsoup
@@ -21,29 +21,29 @@ depends curl '--with-curl=yes --with-soup=no' &&
 optional_depends libarchive                                    \
                  '--with-libarchive=yes'                       \
                  '--with-libarchive=no'                        \
-                 "Build with libarchive support?"              &&
+                 'Build with libarchive support?'              &&
 
 optional_depends libselinux                                    \
                  '--with-selinux=yes'                          \
                  '--with-selinux=no'                           \
-                 "Build with selinux support?"                 &&
+                 'Build with selinux support?'                 &&
 
 optional_depends systemd                                       \
 		 ''					       \
 		 '--without-libsystemd=yes'		       \
-		 "Build with systemd support?"                 &&
+		 'Build with systemd support?'                 &&
 
 optional_depends dracut                                        \
 		 '--with-dracut=yes'                           \
 		 ''                                            \
-                 "Build dracut modules?"                       &&
+                 'Build dracut modules?'                       &&
 
 optional_depends libxml2                                       \
 		 ''                                            \
 		 '--enable-man=no'                             \
-		 "generate man-pages?"                         &&
+		 'generate man-pages?'                         &&
 
 optional_depends gtk-doc                                       \
 		 '--enable-gtk-doc=yes'                        \
 		 ''                                            \
-                 "generate documentation?"                     
+                 'generate documentation?'                     
