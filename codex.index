@@ -6,4 +6,5 @@ ostree /var/lib/sorcery/codex/craft/utils
 xdg-dbus-proxy /var/lib/sorcery/codex/craft/utils
 xdg-desktop-portal-gtk /var/lib/sorcery/codex/craft/utils
 xdg-desktop-portal-kde /var/lib/sorcery/codex/craft/utils
+xdg-desktop-portal-lxqt /var/lib/sorcery/codex/craft/utils
 xdg-desktop-portal /var/lib/sorcery/codex/craft/utils
