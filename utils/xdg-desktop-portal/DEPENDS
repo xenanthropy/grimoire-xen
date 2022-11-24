@@ -5,7 +5,6 @@ depends glib2       &&
 depends json-glib   &&
 depends fuse3       &&
 depends gdk-pixbuf2 &&
-
 depends PKG-CONFIG  &&
 
 optional_depends geoclue                                                \
@@ -14,22 +13,26 @@ optional_depends geoclue                                                \
                  'Enable Geoclue support? (Needed for location portal)' &&
 
 optional_depends libportal                                              \
-		 'libportal=enabled'                                    \
-		 'libportal=disabled'                                   \
-		 'Enabled libportal supportal? (recommended)'           &&
+		         'libportal=enabled'                                    \
+		         'libportal=disabled'                                   \
+		         'Enabled libportal supportal? (recommended)'           &&
 
 optional_depends pipewire                                               \
-		 'pipewire=enabled'                                     \
-		 'pipewire=disabled'                                    \
-		 'Enable pipewire support?'                             &&
+		         'pipewire=enabled'                                     \
+		         'pipewire=disabled'                                    \
+		         'Enable pipewire support?'                             &&
 
 optional_depends systemd                                                \
-		 'systemd=enabled'                                      \
-		 'systemd=disabled'                                     \
-		 'Enable systemd support?'                              &&
+		         'systemd=enabled'                                      \
+		         'systemd=disabled'                                     \
+		         'Enable systemd support?'                              &&
 
 optional_depends xmlto                                                  \
                  'docbook-docs=enabled'                                 \
                  'docbook-docs=disabled'                                \
-                 'Build documentation?'
+                 'Build documentation?'                                 &&
 
+suggest_depends xdg-desktop-portal-gtk  "" "" "Gtk portal backend"               &&
+suggest_depends xdg-desktop-portal-kde  "" "" "Kde portal backend"               &&
+suggest_depends xdg-desktop-portal-lxqt "" "" "LxQt portal backend"              &&
+suggest_depends xdg-desktop-portal-wlr  "" "" "wlroots portal backend (wayland)"
