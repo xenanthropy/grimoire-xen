@@ -21,26 +21,26 @@ depends gdk-pixbuf2               &&
 # Curl is non-optional dependency until ostree sub-depends implemented
 depends curl                      &&
 
-optional_depends dconf                                                      \
-                 "dconf=enabled"                                            \
-                 "dconf=disabled"                                           \
-                 "Use dconf?"                                               &&
+optional_depends dconf                                                     \
+                 "dconf=enabled"                                           \
+                 "dconf=disabled"                                          \
+                 "Use dconf?"                                              &&
 
-optional_depends gobject-introspection                                      \
-		 "gir=enabled"                                              \
-		 "gir=disabled"                                             \
-                 "Build GObject-Introspection metadata?"                    \
+optional_depends gobject-introspection                                     \
+		 "gir=enabled"                                             \
+		 "gir=disabled"                                            \
+                 "Build GObject-Introspection metadata?"                   \
 
-optional_depends gtk-doc                                                    \
-		 "gtkdoc=enabled"                                           \
-		 "gtkdoc=disabled"                                          \
-		 "build API reference documentation?"                       &&
+optional_depends gtk-doc                                                   \
+		 "gtkdoc=enabled"                                          \
+		 "gtkdoc=disabled"                                         \
+		 "build API reference documentation?"                      &&
 
 # Disabling soup HTTP backend until flatpak ostree sub-depends is set up                  
-#optional_depends libsoup                                                   \
-#		 ""                                                         \
-#		 "http_backend=soup"                                        \
-#		 "Use libsoup as http backend?"                             &&
+#optional_depends libsoup                                                  \
+#		 "                                                        \
+#		 "http_backend=soup"                                       \
+#		 "Use libsoup as http backend?"                            &&
 
 #if is_depends_enabled $SPELL libsoup; then
 #  depends -sub WITH_SOUP ostree
@@ -87,14 +87,14 @@ if is_depends_enabled $SPELL xauth; then
   depends libxau
 fi &&
 
-optional_depends libxslt                                                    \
-		 "man=enabled"                                              \
-		 "man=disabled"                                             \
+optional_depends libxslt                                                   \
+		 "man=enabled"                                             \
+		 "man=disabled"                                            \
 		 "Generate man-pages?"                    
 
-optional_depends xmlto                                                      \
-		 "docbook_docs=enabled"                                     \
-		 "docbook_docs=disabled"                                    \
-		 "Build documentation?"                                     &&
+optional_depends xmlto                                                     \
+		 "docbook_docs=enabled"                                    \
+		 "docbook_docs=disabled"                                   \
+		 "Build documentation?"                                    &&
 
 suggest_depends xdg-desktop-portal "" "" "portal front-end service for flatpak"

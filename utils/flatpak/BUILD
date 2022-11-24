@@ -1,2 +1,2 @@
-OPTS+=" tests=false http_backend=curl" &&
+OPTS+=" tests=false" &&
 meson_build
