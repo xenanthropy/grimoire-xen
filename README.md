@@ -2,12 +2,12 @@
 My own personal repository of spells for SMGL
 
 # Current list of spells
-appstream-glib
-ostree
-flatpak
-xdg-dbus-proxy
-libportal
-bubblewrap
-xdg-desktop-portal
-xdg-desktop-portal-gtk
-xdg-desktop-portal-kde
+appstream-glib<br>
+ostree<br>
+flatpak<br>
+xdg-dbus-proxy<br>
+libportal<br>
+bubblewrap<br>
+xdg-desktop-portal<br>
+xdg-desktop-portal-gtk<br>
+xdg-desktop-portal-kde<br>
