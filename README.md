@@ -12,3 +12,4 @@ xdg-desktop-portal<br>
 xdg-desktop-portal-gtk<br>
 xdg-desktop-portal-kde<br>
 xdg-desktop-portal-lxqt<br>
+xdg-desktop-portal-wlr<br>

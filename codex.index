@@ -8,3 +8,4 @@ xdg-desktop-portal-gtk /var/lib/sorcery/codex/craft/utils
 xdg-desktop-portal-kde /var/lib/sorcery/codex/craft/utils
 xdg-desktop-portal-lxqt /var/lib/sorcery/codex/craft/utils
 xdg-desktop-portal /var/lib/sorcery/codex/craft/utils
+xdg-desktop-portal-wlr /var/lib/sorcery/codex/craft/utils
