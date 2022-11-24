@@ -1,4 +1,7 @@
 2022-11-24 Conner Clere <connerclere@gmail.com>
+        * accounts, groups: added flatpak user & group
+
+2022-11-24 Conner Clere <connerclere@gmail.com>
         * utils/xdg-desktop-portal-wlr: new spell
 
 2022-11-23 Conner Clere <connerclere@gmail.com>
