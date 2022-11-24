@@ -8,3 +8,6 @@ flatpak
 xdg-dbus-proxy
 libportal
 bubblewrap
+xdg-desktop-portal
+xdg-desktop-portal-gtk
+xdg-desktop-portal-kde
