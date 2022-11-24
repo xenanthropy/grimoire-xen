@@ -4,3 +4,6 @@ flatpak /var/lib/sorcery/codex/craft/utils
 libportal /var/lib/sorcery/codex/craft/utils
 ostree /var/lib/sorcery/codex/craft/utils
 xdg-dbus-proxy /var/lib/sorcery/codex/craft/utils
+xdg-desktop-portal-gtk /var/lib/sorcery/codex/craft/utils
+xdg-desktop-portal-kde /var/lib/sorcery/codex/craft/utils
+xdg-desktop-portal /var/lib/sorcery/codex/craft/utils
